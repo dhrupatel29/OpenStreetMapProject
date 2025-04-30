@@ -1,0 +1,8 @@
+# Known leaks on newer Macs
+leak:_fetchInitializingClassList
+leak:libobjc.A.dylib
+leak:libsystem_malloc.dylib
+
+# Weird leak from EXPECT_THROW on MacOS
+leak:std::logic_error::~logic_error
+leak:__calloc_with_fallback
