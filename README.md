@@ -11,9 +11,14 @@ It includes:
 - Visual route displayed on UIC campus map
 - Data structures and graph traversal in C++
 
+![Map UI Demo](openstreetimage.png)
+
 ## How to Run
 
 ### Terminal Interface
 ```bash
 make osm_main
 ./osm_main
+
+
+
